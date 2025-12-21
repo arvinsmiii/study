@@ -1,0 +1,38 @@
+/* 首页样式 */
+/* 版心 */
+.wrapper {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+/* 头部 */
+.header {
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.header .wrapper{
+    padding-top: 29px;
+    display: flex;
+}
+
+/* logo */
+.header .logo h1 a{
+    display: block;
+    width: 195px;
+    height: 41px;
+    background-image: url("../images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+
+/* 导航 */
+.header .nav ul {
+    display: flex;
+    margin-left: 102px;
+}
