@@ -119,7 +119,8 @@ body {
 
 /* banner区域 */
 .banner {
-    /* margin: 0 auto;  */
+    margin: 0 auto; 
+    
     /* margin-top: 20px; */
     /* width: 1200px; */
     height: 420px;
@@ -146,11 +147,28 @@ body {
 
 .banner .left a {
     display: block;
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
     height: 46px;
+    width: 100%;
     line-height: 46px;
     color: #ffffff;
     font-size: 16px;
 }
+
+.banner .left a::after {
+    content: ">";
+    position: absolute;
+    right: 10px;
+    top: 0;    
+    font-size: 16px;
+}
+
 .banner .left a:hover {
+    color: #00a4ff;
+}
+
+.banner .left a:hover::after {
     color: #00a4ff;
 }

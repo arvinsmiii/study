@@ -3,10 +3,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Inter", "Microsoft Yahei", "PingFang SC", sans-serif;
-    text-decoration: none;
-    list-style-type: none;
 }
 
 a {
     color: #333;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
