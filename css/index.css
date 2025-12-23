@@ -239,9 +239,10 @@ body {
     display: flex;
     justify-content: center;
     vertical-align: middle;
+    margin-left: 30px;
     width: 130px;
     height: 32px;
-    background-color: lightblue;
+    background-color: rgb(100, 196, 228);
     border-radius: 16px;
 }
 
@@ -250,3 +251,86 @@ body {
     line-height: 32px;
     font-size: 18px;
 }
+
+/* 精品推荐 */
+.recommend {
+    display: flex;
+    margin-top: 11px;
+    padding: 0 20px;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(211, 211, 211, 0.5);
+    line-height: 60px;
+}
+
+.recommend h3 {
+    font-size: 20px;
+    color: #00a4ff;
+}
+.recommend ul {
+    display: flex;
+    margin: 0 auto;
+}
+
+.recommend li {
+    margin-right: 24px;
+    font-size: 18px;
+}
+
+.recommend li:nth-child(-n+8)::after {
+    content: "|";
+    margin-left: 24px;
+    color: #d3d3d3;
+}
+
+.recommend .modify{
+    font-size: 20px;
+    color: #00a4ff;
+}
+
+/* 精品课程 */
+.course {
+    margin-top: 20px;
+    padding: 0 20px 20px 20px;
+    height: 600px;
+    background-color: #ffffff;
+}
+
+.course .hd {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    line-height: 60px;
+}
+
+.course .hd h3 {
+    font-size: 20px;
+}
+
+.course .hd a::after {
+    content: ">";
+    margin-left: 8px;
+}
+
+.course .bd .keig {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.course .bd a {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:200px;
+    height: 240px;
+    background-color: #4a85d3;
+}
+
+.course .bd a:nth-child(-n+5) {
+    margin-bottom: 25px;
+}
+
