@@ -277,6 +277,10 @@ body {
     font-size: 18px;
 }
 
+.recommend li a:hover {
+    color: #00a4ff;
+}
+
 .recommend li:nth-child(-n+8)::after {
     content: "|";
     margin-left: 24px;
@@ -312,6 +316,10 @@ body {
     margin-left: 8px;
 }
 
+.course .hd a:hover{
+    color: #00a4ff;
+}
+
 .course .bd .keig {
     display: flex;
     justify-content: space-between;
@@ -334,3 +342,9 @@ body {
     margin-bottom: 25px;
 }
 
+.course .bd a:hover{
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+    background-color: #78a4dd;
+}
